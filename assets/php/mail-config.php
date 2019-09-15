@@ -14,7 +14,7 @@
         //LGX ALL EMAIL CONFIGURATION
 //---------------------------------------------------------------------------------
 
-$admin_email_to        = 'etoquero.fb@gmail.com'; /* Admin Email; Who Will Get The Contact Email Alert */
+$admin_email_to        = 'career.weevolve@gmail.com'; /* Admin Email; Who Will Get The Contact Email Alert */
 
 $admin_email_name   = "WeEvolve Admin"; /* Admin Name/Company name who will get the email alert */
 
