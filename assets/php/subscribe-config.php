@@ -12,5 +12,5 @@
 
 $save_in_csv    = false; // If You Want to save in csv format then set it true
 $send_email     = true;
-$api_key        = 'c9bee5a70d502b2939e274a8a64ae602-us11'; // MailChimp API KEY
-$list_id        = 'd1c6438b35'; // MailChimp LIST ID
+$api_key        = '67f663e8161100ea1256ac2a3f2b55a4-us4'; // MailChimp API KEY
+$list_id        = 'f103679d38'; // MailChimp LIST ID
