@@ -356,7 +356,7 @@
          ========================================================================== */
         if($('#lgx-typed-string').length){
             $('#lgx-typed-string').typed({
-                strings: ["UX Conference 2019", "UI Conference 2019","You learn Advance"],
+                strings: ["It's your time to SHINE!", "Be part of myPuhunan","You learn Advance"],
                 // typing speed
                 typeSpeed: 10,
                 // time before typing starts
