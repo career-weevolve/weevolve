@@ -25,7 +25,7 @@ $admin_email_from_name  = 'WeEvolve System'; /* Admin name from which email will
 
 $use_custom_subject = false; /* If you want to use custom subject then set true. To use form subject just ignore it. */
 
-$admin_email_subject = 'A new message from WeEvolve Demo'; /* Custom email subject what the admin will get as contact email alert*/
+$admin_email_subject = 'A new message from WeEvolve'; /* Custom email subject what the admin will get as contact email alert*/
 
 $copy_email_subject = 'Thanks for contact'; /* Email subject what the user will get if the user agreed or select "copy me" */
 
