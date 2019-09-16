@@ -78,6 +78,9 @@
     <!-- MASTER  STYLESHEET  -->
     <link id="lgx-master-style" rel="stylesheet" href="assets/css/style-default.min.css" media="all"/>
 
+    <link href="http://sachinchoolur.github.io/lightGallery/lightgallery/css/lightgallery.css" rel="stylesheet">
+    <link href="http://sachinchoolur.github.io/lightGallery/static/css/justifiedGallery.min.css" rel="stylesheet">
+    
     <!-- MODERNIZER CSS  -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -203,7 +206,22 @@
 </section>
 <!--BANNER END-->
 
-    
+ <!--countdown-->
+ <section>
+        <div id="lgx-countdowns" class="lgx-countdowns lgx-countdowns-banner-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="lgx-countdown-area lgx-countdown-area-squre lgx-countdowns-banner-bottom">
+                            <!-- Date Format :"Y/m/d" || For Example: 1017/10/5  -->
+                            <div id="lgx-countdown" data-date="2019/1/1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- //.CONTAINER -->
+        </div>
+</section>
+<!--countdown END-->   
 
 <!--ABOUT-->
 <section>
@@ -242,11 +260,12 @@
 
 
 
+
 <!--SPEAKERS-->
 <section>
     <div id="lgx-speakers" class="lgx-speakers lgx-speakers2">
         <div class="lgx-inner">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="lgx-heading lgx-heading-white">
@@ -257,63 +276,120 @@
                 </div>
                 <!--//.ROW-->
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="lgx-single-speaker">
-                            <figure>
-                                <a class="profile-img" href="speakers.html"><img src="http://placehold.it/800x860" alt="Speaker"/></a>
-                                <figcaption>
-                                    <div class="social-group">
-                                        <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                        <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <div class="speaker-info">
-                                        <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
-                                        <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                    </div>
-                                </figcaption>
-                            </figure>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="lgx-single-speaker">
+                                <figure>
+                                    <a class="profile-img" href="speakers.html"><img src="http://placehold.it/800x860" alt="Speaker"/></a>
+                                    <figcaption>
+                                        <div class="social-group">
+                                            <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
+                                            <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
+                                            <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
+                                            <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
+                                        </div>
+                                        <div class="speaker-info">
+                                            <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
+                                            <h4 class="subtitle">Ceo of LogicHunt</h4>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="lgx-single-speaker">
-                            <figure>
-                                <a class="profile-img" href="speakers.html"><img src="http://placehold.it/800x860" alt="Speaker"/></a>
-                                <figcaption>
-                                    <div class="social-group">
-                                        <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                        <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <div class="speaker-info">
-                                        <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
-                                        <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                    </div>
-                                </figcaption>
-                            </figure>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="lgx-single-speaker">
+                                <figure>
+                                    <a class="profile-img" href="speakers.html"><img src="http://placehold.it/800x860" alt="Speaker"/></a>
+                                    <figcaption>
+                                        <div class="social-group">
+                                            <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
+                                            <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
+                                            <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
+                                            <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
+                                        </div>
+                                        <div class="speaker-info">
+                                            <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
+                                            <h4 class="subtitle">Ceo of LogicHunt</h4>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="lgx-single-speaker">
-                            <figure>
-                                <a class="profile-img" href="speakers.html"><img src="http://placehold.it/800x860" alt="Speaker"/></a>
-                                <figcaption>
-                                    <div class="social-group">
-                                        <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                        <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <div class="speaker-info">
-                                        <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
-                                        <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                    </div>
-                                </figcaption>
-                            </figure>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="lgx-single-speaker">
+                                <figure>
+                                    <a class="profile-img" href="speakers.html"><img src="http://placehold.it/800x860" alt="Speaker"/></a>
+                                    <figcaption>
+                                        <div class="social-group">
+                                            <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
+                                            <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
+                                            <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
+                                            <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
+                                        </div>
+                                        <div class="speaker-info">
+                                            <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
+                                            <h4 class="subtitle">Ceo of LogicHunt</h4>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
                         </div>
-                    </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="lgx-single-speaker">
+                                <figure>
+                                    <a class="profile-img" href="speakers.html"><img src="http://placehold.it/800x860" alt="Speaker"/></a>
+                                    <figcaption>
+                                        <div class="social-group">
+                                            <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
+                                            <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
+                                            <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
+                                            <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
+                                        </div>
+                                        <div class="speaker-info">
+                                            <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
+                                            <h4 class="subtitle">Ceo of LogicHunt</h4>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="lgx-single-speaker">
+                                <figure>
+                                    <a class="profile-img" href="speakers.html"><img src="http://placehold.it/800x860" alt="Speaker"/></a>
+                                    <figcaption>
+                                        <div class="social-group">
+                                            <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
+                                            <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
+                                            <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
+                                            <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
+                                        </div>
+                                        <div class="speaker-info">
+                                            <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
+                                            <h4 class="subtitle">Ceo of LogicHunt</h4>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="lgx-single-speaker">
+                                <figure>
+                                    <a class="profile-img" href="speakers.html"><img src="http://placehold.it/800x860" alt="Speaker"/></a>
+                                    <figcaption>
+                                        <div class="social-group">
+                                            <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
+                                            <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
+                                            <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
+                                            <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
+                                        </div>
+                                        <div class="speaker-info">
+                                            <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
+                                            <h4 class="subtitle">Ceo of LogicHunt</h4>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
                 </div>
                 <!--//.ROW-->
             </div>
@@ -327,66 +403,66 @@
 
 
 
-    <!--MILESTONE-->
-    <section>
-        <div id="lgx-milestone-about" class="lgx-milestone-about">
-            <div class="lgx-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="lgx-milestone-area">
-                                <div class="lgx-milestone">
-                                    <div class="milestone-inner">
-                                        <div class="lgx-content">
-                                            <div class="row">
-                                                <div class="col-sm-3">
-                                                    <div class="lgx-counter-area">
-                                                        <img src="assets/img/icons/1.png" alt="teacher icon">
-                                                        <div class="counter-text">
-                                                            <span class="lgx-counter">500</span>
-                                                            <small>Usefull Sessions</small>
-                                                        </div>
+<!--MILESTONE-->
+<section>
+    <div id="lgx-milestone-about" class="lgx-milestone-about">
+        <div class="lgx-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="lgx-milestone-area">
+                            <div class="lgx-milestone">
+                                <div class="milestone-inner">
+                                    <div class="lgx-content">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="lgx-counter-area">
+                                                    <img src="assets/img/icons/1.png" alt="teacher icon">
+                                                    <div class="counter-text">
+                                                        <span class="lgx-counter">500</span>
+                                                        <small>Usefull Sessions</small>
                                                     </div>
-                                                </div> <!--//.COL-->
-                                                <div class="col-sm-3">
-                                                    <div class="lgx-counter-area">
-                                                        <img src="assets/img/icons/2.png" alt="teacher icon">
-                                                        <div class="counter-text">
-                                                            <span class="lgx-counter">085</span>
-                                                            <small>Great Speakers</small>
-                                                        </div>
+                                                </div>
+                                            </div> <!--//.COL-->
+                                            <div class="col-sm-3">
+                                                <div class="lgx-counter-area">
+                                                    <img src="assets/img/icons/2.png" alt="teacher icon">
+                                                    <div class="counter-text">
+                                                        <span class="lgx-counter">085</span>
+                                                        <small>Great Speakers</small>
                                                     </div>
-                                                </div> <!--//.COL-->
-                                                <div class="col-sm-3">
-                                                    <div class="lgx-counter-area">
-                                                        <img src="assets/img/icons/3.png" alt="teacher icon">
-                                                        <div class="counter-text">
-                                                            <span class="lgx-counter">7896</span>
-                                                            <small>Regular Crowd</small>
-                                                        </div>
+                                                </div>
+                                            </div> <!--//.COL-->
+                                            <div class="col-sm-3">
+                                                <div class="lgx-counter-area">
+                                                    <img src="assets/img/icons/3.png" alt="teacher icon">
+                                                    <div class="counter-text">
+                                                        <span class="lgx-counter">7896</span>
+                                                        <small>Regular Crowd</small>
                                                     </div>
-                                                </div> <!--//.COL-->
-                                                <div class="col-sm-3">
-                                                    <div class="lgx-counter-area">
-                                                        <img src="assets/img/icons/4.png" alt="teacher icon">
-                                                        <div class="counter-text">
-                                                            <span class="lgx-counter">600</span>
-                                                            <small>Skilled Speakers</small>
-                                                        </div>
+                                                </div>
+                                            </div> <!--//.COL-->
+                                            <div class="col-sm-3">
+                                                <div class="lgx-counter-area">
+                                                    <img src="assets/img/icons/4.png" alt="teacher icon">
+                                                    <div class="counter-text">
+                                                        <span class="lgx-counter">600</span>
+                                                        <small>Skilled Speakers</small>
                                                     </div>
-                                                </div> <!--//.COL-->
-                                            </div> <!--//.ROW-->
-                                        </div> <!--//. lgx CONTENT CONTENT-->
-                                    </div><!--//.lgx INNER-->
-                                </div><!--//.Milestone End -->
-                            </div>
+                                                </div>
+                                            </div> <!--//.COL-->
+                                        </div> <!--//.ROW-->
+                                    </div> <!--//. lgx CONTENT CONTENT-->
+                                </div><!--//.lgx INNER-->
+                            </div><!--//.Milestone End -->
                         </div>
                     </div>
-                </div><!-- //.CONTAINER -->
-            </div><!-- //.INNER -->
-        </div>
-    </section>
-    <!--MILESTONE END-->
+                </div>
+            </div><!-- //.CONTAINER -->
+        </div><!-- //.INNER -->
+    </div>
+</section>
+<!--MILESTONE END-->
 
 
 
@@ -993,67 +1069,71 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="lgx-heading">
-                                <h2 class="heading">What Clients Say</h2>
+                                <h2 class="heading">WeE Stories</h2>
                                 <h3 class="subheading">Welcome to the dedicated to building remarkable Testimonials!</h3>
                             </div>
                         </div>
                     </div>
                     <!--//.ROW-->
-                    <div class="row">
-                        <div id="lgx-owltestimonial" class="lgx-owltestimonial lgx-owlnews">
-
-                            <div class="item">
-                                <!--Testimonial-single-->
-                                <blockquote class="lgx-testi-single">
-                                    <p><span>This is the best Restaurant in the world</span> Proin sodales dapibus magna, et porta leo convallis sed. Duis tincidunt libero ut neque mollis dignissim. Nullam ultricies sit amet quam non iaculis. Curabitur convallis nulla non nibh aliquet rhoncus. Donec at tempus felis.</p>
-                                    <div class="author">
-                                        <img src="http://placehold.it/83x83" alt="author">
-                                        <h4 class="title"><a href="#"></a>Jonathon Doe</h4>
-                                        <div class="rate">
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                    </div>
-                                </blockquote> <!--//.Testimonial-single-->
-                            </div> <!--//.Item-->
-                            <div class="item">
-                                <!--Testimonial-single-->
-                                <blockquote class="lgx-testi-single">
-                                    <p><span>This is the best Restaurant in the world</span> Proin sodales dapibus magna, et porta leo convallis sed. Duis tincidunt libero ut neque mollis dignissim. Nullam ultricies sit amet quam non iaculis. Curabitur convallis nulla non nibh aliquet rhoncus. Donec at tempus felis.</p>
-                                    <div class="author">
-                                        <img src="http://placehold.it/83x83" alt="author">
-                                        <h4 class="title"><a href="#"></a>Jonathon Doe</h4>
-                                        <div class="rate">
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                    </div>
-                                </blockquote> <!--//.Testimonial-single-->
-                            </div> <!--//.Item-->
-                            <div class="item">
-                                <!--Testimonial-single-->
-                                <blockquote class="lgx-testi-single">
-                                    <p><span>This is the best Restaurant in the world</span> Proin sodales dapibus magna, et porta leo convallis sed. Duis tincidunt libero ut neque mollis dignissim. Nullam ultricies sit amet quam non iaculis. Curabitur convallis nulla non nibh aliquet rhoncus. Donec at tempus felis.</p>
-                                    <div class="author">
-                                        <img src="http://placehold.it/83x83" alt="author">
-                                        <h4 class="title"><a href="#"></a>Jonathon Doe</h4>
-                                        <div class="rate">
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star active"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                    </div>
-                                </blockquote> <!--//.Testimonial-single-->
-                            </div> <!--//.Item-->
-                        </div><!--l//#lgx-OWL NEWS-->
+                    <div class="col-xs-12">
+                        <div class="demo-gallery">
+                            <ul id="lightgallery">
+                            <li class="video" data-src="https://www.youtube.com/watch?v=Uenbtfh1ZsM"
+                            data-poster="https://sachinchoolur.github.io/lightGallery/static/img/videos/y-video1-cover.jpg">
+                                <a href="">
+                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-y-1.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                                </div>
+                                </a>
+                            </li>
+                            <li class="video" data-src="https://www.youtube.com/watch?v=Pq9yPrLWMyU"
+                            data-poster="https://sachinchoolur.github.io/lightGallery/static/img/videos/y-video2-cover.jpg">
+                                <a href="">
+                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-y-2.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                                </div>
+                                </a>
+                            </li>
+                            <li class="video" data-src="https://vimeo.com/1084537"
+                            data-poster="https://sachinchoolur.github.io/lightGallery/static/img/videos/v-video1-cover.jpg">
+                                <a href="">
+                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-v-1.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                                </div>
+                                </a>
+                            </li>
+                            <li class="video" data-src="https://vimeo.com/35451452"
+                            data-poster="https://sachinchoolur.github.io/lightGallery/static/img/videos/v-video2-cover.jpg">
+                                <a href="">
+                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-v-2.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                                </div>
+                                </a>
+                            </li>
+                            <li class="video" data-src="https://vimeo.com/35451452"
+                            data-poster="https://sachinchoolur.github.io/lightGallery/static/img/videos/v-video2-cover.jpg">
+                            <a href="">
+                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-v-2.jpg">
+                                <div class="demo-gallery-poster">
+                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                                </div>
+                            </a>
+                            </li>
+                            <li class="video" data-src="https://vimeo.com/35451452"
+                            data-poster="https://sachinchoolur.github.io/lightGallery/static/img/videos/v-video2-cover.jpg">
+                            <a href="">
+                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-v-2.jpg">
+                                <div class="demo-gallery-poster">
+                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                                </div>
+                            </a>
+                            </li>
+                            </ul>
+                        </div>
                     </div>
                 </div><!-- //.CONTAINER -->
             </div><!-- //.INNER -->
@@ -1360,9 +1440,32 @@
 <!-- CUSTOM SCRIPT  -->
 <script src="assets/js/custom.script.js"></script>
 
+<script>
+$('#video-player-param').lightGallery({
+    youtubePlayerParams: {
+        modestbranding: 1,
+        showinfo: 0,
+        rel: 0,
+        controls: 0
+    },
+    vimeoPlayerParams: {
+        byline : 0,
+        portrait : 0,
+        color : 'A90707'     
+    }
+}); </script>
 
-
-
+        <script src="http://sachinchoolur.github.io/lightGallery/static/js/prettify.js"></script>
+        <script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+        <script src="http://sachinchoolur.github.io/lightGallery/static/js/jquery.justifiedGallery.min.js"></script>
+        <script src="http://sachinchoolur.github.io/lightGallery/static/js/transition.js"></script>
+        <script src="http://sachinchoolur.github.io/lightGallery/static/js/collapse.js"></script>
+        <script src="http://sachinchoolur.github.io/lightGallery/lightgallery/js/lightgallery.js"></script>
+        <script src="http://sachinchoolur.github.io/lightGallery/lightgallery/js/lg-fullscreen.js"></script>
+        <script src="http://sachinchoolur.github.io/lightGallery/lightgallery/js/lg-thumbnail.js"></script>
+        <script src="http://sachinchoolur.github.io/lightGallery/lightgallery/js/lg-video.js"></script>
+        <script src="http://sachinchoolur.github.io/lightGallery/lightgallery/js/lg-autoplay.js"></script>
+        <script src="http://sachinchoolur.github.io/lightGallery/static/js/demos.js"></script>
 
 
 

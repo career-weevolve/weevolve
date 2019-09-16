@@ -4,6 +4,9 @@
 
     $(document).ready(function() {
 
+        $(document).ready(function() {
+            $('#lightgallery').lightGallery();
+        });
 
         /*=========================================================================
          ===  MENU SCROLL FIXED
@@ -45,17 +48,17 @@
                         "show": true
                     },
                     "Hours": {
-                        "text": "Hours",
+                        "text": "Hrs",
                         "color": "#fac400",
                         "show": true
                     },
                     "Minutes": {
-                        "text": "Minutes",
+                        "text": "Mins",
                         "color": "#00acee",
                         "show": true
                     },
                     "Seconds": {
-                        "text": "Seconds",
+                        "text": "Secs",
                         "color": "#483fa1",
                         "show": true
                     }
@@ -139,9 +142,9 @@
                 var $this = $(this).html(event.strftime(''
                     /*+ '<span class="lgx-weecks">%w <i> weeks </i></span> '*/
                     + '<span class="lgx-days">%D <i> Days </i></span> '
-                    + '<span class="lgx-hr">%H <i> Hour </i></span> '
-                    + '<span class="lgx-min">%M <i> Minu </i></span> '
-                    + '<span class="lgx-sec">%S <i> Seco </i></span>'
+                    + '<span class="lgx-hr">%H <i> Hrs </i></span> '
+                    + '<span class="lgx-min">%M <i> Mins </i></span> '
+                    + '<span class="lgx-sec">%S <i> Secs </i></span>'
                 ));
             });
         }
