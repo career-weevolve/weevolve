@@ -356,7 +356,7 @@
          ========================================================================== */
         if($('#lgx-typed-string').length){
             $('#lgx-typed-string').typed({
-                strings: ["It's your time to SHINE!", "Be part of myPuhunan","You learn Advance"],
+                strings: ["It's your time to SHINE!", "Evolution is here in CEBU"],
                 // typing speed
                 typeSpeed: 10,
                 // time before typing starts
