@@ -2,7 +2,7 @@
 (function($) {
     "use strict";
 
-    $(document).ready(function() {
+        $(document).ready(function() {
 
         $(document).ready(function() {
             $('#lightgallery').lightGallery();
@@ -359,7 +359,7 @@
          ========================================================================== */
         if($('#lgx-typed-string').length){
             $('#lgx-typed-string').typed({
-                strings: ["It's your time to SHINE", "Evolution is here in CEBU"],
+                strings: ["It's your time to SHINE", "Evolution is here in CEBU", "Your Success is our GOAL"],
                 // typing speed
                 typeSpeed: 10,
                 // time before typing starts
@@ -430,14 +430,14 @@
             if ($('.map-canvas-default').length) {
                 $(".map-canvas-default").googleMap({
                     zoom: 8, // Initial zoom level (optiona
-                    coords: [40.7127, 74.0059], // Map center (optional)
+                    coords: [10.318398, 123.908467], // Map center (optional)
                     type: "ROADMAP", // Map type (optional),
                     mouseZoom: false
                 });
 
                 //for marker
                 $(".map-canvas-default").addMarker({
-                    coords: [40.7127, 74.0059], // GPS coords
+                    coords: [10.318398, 123.908467], // GPS coords
                     title: 'Eventpoint',
                     text: '121 King St, Melbourne VIC 3000, Australia',
                     icon: lgx_path + '/assets/img/map/map-icon.png'
@@ -448,7 +448,7 @@
             if ($('.map-canvas-dark').length) {
                 $(".map-canvas-dark").googleMap({
                     zoom: 8, // Initial zoom level (optiona
-                    coords: [40.7127, 74.0059], // Map center (optional)
+                    coords: [10.318398, 123.908467], // Map center (optional)
                     type: "HYBRID", // Map type (optional),
                     mouseZoom: false
                 });
