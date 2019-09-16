@@ -48,17 +48,17 @@
                         "show": true
                     },
                     "Hours": {
-                        "text": "Hrs",
+                        "text": "Hours",
                         "color": "#fac400",
                         "show": true
                     },
                     "Minutes": {
-                        "text": "Mins",
+                        "text": "Minutes",
                         "color": "#00acee",
                         "show": true
                     },
                     "Seconds": {
-                        "text": "Secs",
+                        "text": "Seconds",
                         "color": "#483fa1",
                         "show": true
                     }
