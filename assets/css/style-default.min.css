@@ -14257,6 +14257,7 @@ blockquote.lgx-testi-single:before {
 .lgx-single-speaker-video  .video-profile-img{
     display:block;
     transition-duration: .3s
+    transition: visibility .5, opacity 0.5s linear;
 }
 
 .lgx-single-speaker-video:hover  .video-profile-img{
