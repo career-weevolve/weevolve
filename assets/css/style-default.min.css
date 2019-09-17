@@ -14219,6 +14219,7 @@ blockquote.lgx-testi-single:before {
 
 .lgx-single-speaker-video:hover .speaker-info-video {
     display: none;
+    overflow: hidden
 }
 
 .lgx-single-speaker-video .speaker-info-video .title {
@@ -14303,25 +14304,25 @@ blockquote.lgx-testi-single:before {
     padding: 0 5px;
     border-radius: 5px;
     display:block;
-    box-shadow: 0 0 0 0 rgba(142, 68, 173, 1);
-    animation: pulse-purple 2s infinite;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+	animation: pulse-white 2s infinite;
 }
 
-@keyframes pulse-purple {
-    0% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(142, 68, 173, 0.7);
-    }
-    
-    70% {
-        transform: scale(1);
-        box-shadow: 0 0 0 10px rgba(142, 68, 173, 0);
-    }
-    
-    100% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(142, 68, 173, 0);
-    }
+@keyframes pulse-white {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+	}
 }
   
   .now-playing {
@@ -14346,8 +14347,4 @@ blockquote.lgx-testi-single:before {
     transition-duration: .3s;
     z-index: 0;
     opacity: 0;
-}
-
-.lgx-single-speaker-video:after {
-    content: "";
 }
